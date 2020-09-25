@@ -15,14 +15,20 @@ D3.js+Es6+webpack构建人物关系图(力导向图)
 在此大神的代码基础上,进行了修改,源代码地址::https://github.com/zhangzn3/D3-Es6   
 
 使用文档:
-1.index.htm作为程序入口页面 
+1.index.htm作为程序入口页面
+![Image](https://github.com/f2733938/img-folder/blob/master/1226716-20190712090417411-1558682042.png)
+![Image](https://github.com/f2733938/img-folder/blob/master/1226716-20190712090431757-1906131820.png)
 2.简单解析核心js  home.bundle.js      D3-Es6-master\docs\js
 (1) 初始加载数据 _api2.default.getData().always(function (rps)方法
-![Image](https://github.com/f2733938/img-folder/blob/master/1226716-20190712090417411-1558682042.png)
+![Image](https://github.com/f2733938/img-folder/blob/master/1226716-20190712090446716-1800951716.png)
 (2) 添加节点  d3.select('#J_AddNode').on("click.add-node", function ()方法
+![Image](https://github.com/f2733938/img-folder/blob/master/1226716-20190712090457429-1823432860.png)
 (3) 添加连线,建立对应关系,双向线代码部分理应删除
+![Image](https://github.com/f2733938/img-folder/blob/master/1226716-20190712090505362-751164846.png)
 (4) 导出excel  exportExcel: function exportExcel(json)
+![Image](https://github.com/f2733938/img-folder/blob/master/1226716-20190712090512207-2051806503.png)
 (5) 显示数据
+![Image](https://github.com/f2733938/img-folder/blob/master/1226716-20190712090522096-1206398169.png)
 3.使用方式
 (1)  添加节点
      点击添加节点,弹出输入框,输入信息后点击添加即为添加成功
